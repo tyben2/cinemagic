@@ -30,10 +30,32 @@ blockquote {
 	font-family: Helvetica, sans-serif;
 }
 
+   .bs-example{
+        margin: 20px;
+        background-color: black;
+    }
+}
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 500px) {
+  .header a {
+    float: center;
+    display: block;
+    text-align: left;
+  }
+
+.mainimage{ float: center;
+
+}
+  }
+  .header-right {
+    float: none;
+  }
+}
+
 header {margin-bottom: 20px;}
 
 /* ensures that your images stretch the width of their containers */
-img { width: 100%; }
 
 a { 
 	color: red;
@@ -53,8 +75,3 @@ a:hover { color: black; }
 	background-color: #ccc;
 	padding: 20px;
 }
-/*
-font-family: 'Mansalva', cursive;
-font-family: 'Dosis', sans-serif;
-font-family: 'Indie Flower', cursive;
-*/
