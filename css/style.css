@@ -25,14 +25,7 @@ h4 {
 	font-size: 24px;
 }
 
-nav {
-	font-family: jaf-domus-titling-web, sans-serif;
 
-	font-weight: 500;
-	font-size: 16px;
-	font-style: normal;
-
-}
 
 
 header {
@@ -53,12 +46,18 @@ header {
 
 	.logo {
 		cursor: pointer;
-		width: auto;
+		width: 70%;
 	}
 
 	li, a, button {
 		color: rgb(242,208,145);
 		text-decoration: none;
+		justify-content: right;
+		font-family: jaf-domus-titling-web, sans-serif;
+
+	font-weight: 500;
+	font-size: 20px;
+	font-style: normal;
 	}
 
 	.nav_links{
@@ -68,7 +67,7 @@ header {
 
 	.nav_links li {
 		display: inline-block;
-		padding: 0px 20px;
+		padding: 5px 20px;
 
 	}
 
