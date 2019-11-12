@@ -27,8 +27,6 @@ h2 {
 	font-weight: 500;
 	font-style: normal;
 	color: rgb(242,208,145);	
-	background-color: rgb(13,22,28);
-
 }
 
 h3 {
@@ -104,9 +102,7 @@ header {
 		border-radius: 50px;
 		cursor: pointer;
 		transition: all 0.3s ease 0s;
-		display: block;
-		margin-bottom: 20px; 
-		margin-top: 20px;
+
 
 	}
 
@@ -115,19 +111,11 @@ header {
 
 	}
 
-
-
-
-
-
-
 	.banner {
 		height: 80px;
 		display: flex;
 		align-items: center;
 		background-color: rgb(166,73,107);
-
-
 
 	}
 
@@ -135,85 +123,61 @@ header {
 
 		margin: auto;
 		align-self: stretch;
+		margin-bottom: 22px;
 	}
 
 
 
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+   	max-height: 300vh; 
+
+  }
+  .nowplaying {
+  	display: flex;
+  	flex-direction: column;
+    width: 500px;
+    margin: 10px;
+} 
+ 
+  .nowplaying h3 {
+
+    padding: 20px;
+    
+  }
+
+  .title {
+  display: flex;
+		justify-content: space-around;
+  		background-color: rgb(13,22,28);
+
+  }
+
+  .showtimes {
+  	    display: flex;
+  	    padding: 15px;
+		justify-content: space-around;
+  		background-color: rgb(13,22,28);
+  }
 
 
-	.maincontainer {
-		max-width: 1000px;
-		margin: 0 auto;
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		margin-top: 50px;
 
 
 
-	}
-
-
-	.nowplayingcontainer {
-		max-width: 500px;
-		margin: 0 auto;
-		display: flex;
 
 
 
-	}
-
-	.first{
-		padding: 5px;
-		flex-basis: 50%;
-		background-color: rgb(13,22,28);
-
-	}
-
-	.jokertitle{
-		background-color: rgb(13,22,28);
-		flex-basis: 50%;
-		margin-bottom: 20px;
-		align-self: left;
-	}
-
-	.jokerposter{
-		background-color: rgb(13,22,28);
-		flex-basis: 50%;
-	}
-
-	.second{
-		padding: 5px;
-		flex-basis: 40%;
-		background-color: rgb(13,22,28);
-		display: flex;
-		flex-direction: column;
-
-	}
-
-	
-
-	
-
-	.joker1{
-		background-color: rgb(13,22,28);
-		flex-basis: 50%;
-		margin-bottom: 20px;
-	}
-
-	.joker2{
-		background-color: rgb(13,22,28);
-		flex-basis: 50%;
-		align-self: center;
 
 
-	}
 
-	/* Main content */
-	.main {
-		margin-top: 50px; 
-		/* Add a top margin to avoid content overlay */
-	}
+
+
+
+
+
 
 
 
