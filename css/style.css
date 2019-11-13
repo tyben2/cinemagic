@@ -163,7 +163,31 @@ header {
   		background-color: rgb(13,22,28);
   }
 
+.box.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  align-content: center;
 
+}
+
+.box {
+ padding-bottom: 20px;
+  background: rgb(166,73,107);
+
+
+}
+
+.box p {
+  max-width: 60px;
+  background: rgb(166,73,107,);
+
+
+}
+
+.star {
+	background: rgb(166,73,107);
+}
 
 
 
