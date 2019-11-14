@@ -10,28 +10,39 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="https://use.typekit.net/mne1qvq.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
 
 </head>
 <body>
 	<!-- These semantic tags were added to help you get started but you are very welcome to delete any of them and do your own thing -->
-	<header>
+<header><div class="header-whole">
+                    <div>
+                        <img class="header-logo" id="logo-right" src="images/cinemagiclogo.svg"/>
+                    </div>
+                    <div class="main-nav">
+                        <ul class="main-nav-menu">
+                            <li><a href="#About-Us">NOW PLAYING</a></li> 
+                            <li><a href="#Facility">MENU</a></li>
+                            <li><a href="#Services">THE CINEMA</a></li>
+                            <li><a href="#Get-Started">CONTACT</a></li> 
+                        </ul> 
+                    </div>
 
-		<div class="logobox">
-			<img class="logo" src="images/cinemagiclogo.svg"></div>
-			<nav>
+                    <div class="spinner-master2">
+                        <input type="checkbox" id="spinner-form2" />
+                        <label for="spinner-form2" class="spinner-spin2">
+                            <div class="spinner2 diagonal part-1"></div>
+                            <div class="spinner2 horizontal"></div>
+                            <div class="spinner2 diagonal part-2"></div>
+                        </label>
+                    </div>
+                </div>
 
-				<ul class="nav_links">
-					<li><a href="index.html">Now Playing</a></li>
-					<li><a href="menu.html">Menu</a></li>
-					<li><a href="cinema.html">The Cinema</a></li>
-				</ul>
-			</nav>
-		</div>
+               <div><img src="images/cinemagicbanner-05.png"></div>
 
-	</header>
-	<div><img src="images/cinemagicbanner-05.png"></div>
-
+</header>
 
 	<main>
 
@@ -43,7 +54,7 @@
 				<img class="star" src="images/star.svg" width="75">
 				
 			</p>
-			<p><h1>Now Playing</h1></p>
+			<div class="portland"><h1>Entertaining Portland Since 1914</h1></div>
 			<p>
 				<img class="star" src="images/star.svg" width="75">
 				
@@ -54,15 +65,28 @@
 
 		<div class="container">
 			<div class="nowplaying">
-				<div class="title"><h3>The joker</h3></div>
-				<img src="images/jokerimg.jpg" alt="Sample photo">
+				<div class="title"><h3>NOW PLAYING</h3></div>
+				<div class="title1"><h4>The Joker</h4></div>
+
+				<img src="images/jokerposter.png" alt="Sample photo">
+				<div class="showtimes"><button>4:00</button>  <button>7:00</button><button>9:00</button>
+				</div>
+			</div>
+
+		<div class="nowplaying">
+				<div class="title"><h3>NOW PLAYING</h3></div>
+				<div class="title1"><h4>The Joker</h4></div>
+
+				<img src="images/jokerposter.png" alt="Sample photo">
 				<div class="showtimes"><button>4:00</button>  <button>7:00</button><button>9:00</button>
 				</div>
 			</div>
 
 			<div class="nowplaying">
-				<div class="title"><h3>The joker</h3></div>
-				<img src="images/jokerimg.jpg" alt="Sample photo">
+				<div class="title"><h3>Coming Soon</h3></div>
+				<div class="title1"><h4>The Joker</h4></div>
+
+				<img src="images/jokerposter.png" alt="Sample photo">
 				<div class="showtimes"><button>4:00</button>  <button>7:00</button><button>9:00</button>
 				</div>
 			</div>

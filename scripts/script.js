@@ -5,7 +5,19 @@ $(function() {
 
 
 
-
+$(document).ready(function(){
+    $('.spinner-master2 label').on('click', function () {
+        if ($(".main-nav").hasClass('active-display')) {
+            
+            $(".main-nav").slideUp("slow");
+            $(".main-nav").removeClass('active-display');
+        } else {
+            
+            $(".main-nav").slideDown("slow");
+            $(".main-nav").addClass('active-display');
+        }
+    });
+});  
 
 
 
