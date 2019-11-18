@@ -32,6 +32,10 @@ h1 {
 	font-style: normal;
 	color: rgb(242,208,145);	
 	background-color: rgb(166,73,107);
+	display:inline-block;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 20px;
 
 }
 
@@ -67,7 +71,7 @@ h5 {
 	font-family: jaf-domus, sans-serif;
 	font-weight: 400;
 	size: 24px;
-font-style: normal;
+	font-style: normal;
 	color: rgb(242,208,145);	
 
 }
@@ -218,23 +222,23 @@ button:hover{
 }
 
 .menucontainer {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	text-align: center;
 
 }
 
 .menuitem {
-  flex-grow: 1;
-  min-width: 300px;
-  max-width: 300px;
-  height: 200px;
-  background-color: red;
-   margin-top: 20px;
-      margin-bottom: 20px;
+	flex-grow: 1;
+	min-width: 300px;
+	max-width: 300px;
+	height: 200px;
+	background-color: red;
+	margin-top: 20px;
+	margin-bottom: 20px;
 
-  margin-left: 2%;
+	margin-left: 2%;
 }
 
 
@@ -321,8 +325,8 @@ button:hover{
 }
 
 footer {
-		background-color: rgba(166,73,107,1);
-		margin-bottom: 40px: 
+	background-color: rgba(166,73,107,1);
+	margin-bottom: 40px: 
 
 }
 
@@ -353,15 +357,6 @@ footer {
 
 }
 
-.portland h1 {
-	font-size: 48px;
-	display:inline-block;
-	margin-left: 40px;
-		margin-right: 40px;
-		margin-bottom: 20px;
-
-
-}
 .portland img { width:35px; }
 
 .boxoffice {
@@ -374,147 +369,147 @@ footer {
 input[type=text],
 input[type=email],
 textarea {
-  outline: none;
-  transition: .2s all linear;
-  display: flex;
-  border: 1px solid silver;
-  border-radious: 4px;
-  padding: 8px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  width: 100%;
+	outline: none;
+	transition: .2s all linear;
+	display: flex;
+	border: 1px solid silver;
+	border-radious: 4px;
+	padding: 8px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
 }
 
 input,
 textarea {
-  margin: 10px 0;
+	margin: 10px 0;
 }
 
 div#global-content {
-  background-color: rgb(13,22,28);
-  min-width: 300px;
-  max-width: 600px;
-  margin: 0 auto;
-  margin-top: 20px;
-    margin-bottom: 20px;
+	background-color: rgb(13,22,28);
+	min-width: 300px;
+	max-width: 600px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
 
-  border-radius: 4px;
+	border-radius: 4px;
 
 }
 
 div#form-content {
-  padding: 20px;
+	padding: 20px;
 }
 
 div#title {
-  background-color: #2980b9;
-  color: white;
-  font-weight: bold;
-  text-align: center;
-  text-transform: uppercase;
-  text-shadow: 1px 0px 15px #3498db;
-  padding: 20px;
-  font-size: 20px;
+	background-color: #2980b9;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 1px 0px 15px #3498db;
+	padding: 20px;
+	font-size: 20px;
 }
 
 input[type=submit] {
-  padding: 5px 10px 5px 10px;
-  background-color: #2980b9;
-  border-radius: 4px;
-  border: 1px solid #2980b9;
-  color: white;
-  font-weight: bold;
-  font-size: 15px;
+	padding: 5px 10px 5px 10px;
+	background-color: #2980b9;
+	border-radius: 4px;
+	border: 1px solid #2980b9;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
 }
 
 textarea {
-  height: 200px;
+	height: 200px;
 }
 
 input:focus,
 textarea:focus {
-  border: 1px solid #2980b9;
+	border: 1px solid #2980b9;
 }
 
 @import "compass";
- .parent-container {
-	 padding: 0 20px 0 20px;
-	 max-width: 800px;
-	 width: 100%;
+.parent-container {
+	padding: 0 20px 0 20px;
+	max-width: 800px;
+	width: 100%;
 }
- .faq {
-	 list-style: none;
-	 padding-left: 40px;
-	 padding-right: 20px;
+.faq {
+	list-style: none;
+	padding-left: 40px;
+	padding-right: 20px;
 }
- .faq li {
-	 border-bottom: 1px solid #999;
-	 margin-bottom: 15px;
+.faq li {
+	border-bottom: 1px solid #999;
+	margin-bottom: 15px;
 }
- .faq li.active .answer {
-	 max-height: 275px !important;
-	 padding-bottom: 25px;
-	 transition: max-height 0.5s ease, padding-bottom 0.5s ease;
+.faq li.active .answer {
+	max-height: 275px !important;
+	padding-bottom: 25px;
+	transition: max-height 0.5s ease, padding-bottom 0.5s ease;
 }
- .faq li.active .question {
-	 color: #808080;
-	 transition: color 0.5s ease;
+.faq li.active .question {
+	color: #808080;
+	transition: color 0.5s ease;
 }
- .faq .answer {
-	 color: #090909;
-	 font-family: serif;
-	 font-size: 16px;
-	 line-height: 24px;
-	 max-height: 0;
-	 overflow: hidden;
-	 transition: max-height 0.5s ease, padding-bottom 0.5s ease;
+.faq .answer {
+	color: #090909;
+	font-family: serif;
+	font-size: 16px;
+	line-height: 24px;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.5s ease, padding-bottom 0.5s ease;
 }
- .faq .plus-minus-toggle {
-	 cursor: pointer;
-	 height: 21px;
-	 position: absolute;
-	 width: 21px;
-	 left: -40px;
-	 top: 50%;
-	 z-index: 2;
+.faq .plus-minus-toggle {
+	cursor: pointer;
+	height: 21px;
+	position: absolute;
+	width: 21px;
+	left: -40px;
+	top: 50%;
+	z-index: 2;
 }
- .faq .plus-minus-toggle:before, .faq .plus-minus-toggle:after {
-	 background: #000;
-	 content: '';
-	 height: 5px;
-	 left: 0;
-	 position: absolute;
-	 top: 0;
-	 width: 21px;
-	 transition: transform 500ms ease;
+.faq .plus-minus-toggle:before, .faq .plus-minus-toggle:after {
+	background: #000;
+	content: '';
+	height: 5px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 21px;
+	transition: transform 500ms ease;
 }
- .faq .plus-minus-toggle:after {
-	 transform-origin: center;
+.faq .plus-minus-toggle:after {
+	transform-origin: center;
 }
- .faq .plus-minus-toggle.collapsed:after {
-	 transform: rotate(90deg);
+.faq .plus-minus-toggle.collapsed:after {
+	transform: rotate(90deg);
 }
- .faq .plus-minus-toggle.collapsed:before {
-	 transform: rotate(180deg);
+.faq .plus-minus-toggle.collapsed:before {
+	transform: rotate(180deg);
 }
- .faq .question {
-	 color: #090909;
-	 font-family: sans-serif;
-	 font-size: 20px;
-	 font-weight: 800;
-	 text-transform: uppercase;
-	 position: relative;
-	 cursor: pointer;
-	 padding: 20px 0;
-	 transition: color 0.5s ease;
+.faq .question {
+	color: #090909;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 800;
+	text-transform: uppercase;
+	position: relative;
+	cursor: pointer;
+	padding: 20px 0;
+	transition: color 0.5s ease;
 }
- @media screen and ("max-width:767px") {
-	 .faq .question {
-		 font-size: 18px;
+@media screen and ("max-width:767px") {
+	.faq .question {
+		font-size: 18px;
 	}
 }
- 
+
 
 
 
