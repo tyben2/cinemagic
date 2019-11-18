@@ -5,7 +5,6 @@ $(function() {
 
 
 
-$(document).ready(function(){
     $('.spinner-master2 label').on('click', function () {
         if ($(".main-nav").hasClass('active-display')) {
             
@@ -17,7 +16,16 @@ $(document).ready(function(){
             $(".main-nav").addClass('active-display');
         }
     });
-});  
+
+
+// Toggle Collapse
+$('.faq li .question').click(function () {
+  $(this).find('.plus-minus-toggle').toggleClass('collapsed');
+  $(this).parent().toggleClass('active');
+});
+
+
+
 
 
 
