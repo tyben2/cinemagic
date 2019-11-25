@@ -1,120 +1,211 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Project One - Homepage</title>
-	<meta name="viewport" content="width=device-width">
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
-	<!-- meyer-reset is a special css library that overrides all the ugle default css styles that come with html5 -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="https://use.typekit.net/mne1qvq.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Project One - Homepage</title>
+		<meta name="viewport" content="width=device-width">
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		<!-- meyer-reset is a special css library that overrides all the ugle default css styles that come with html5 -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="https://use.typekit.net/mne1qvq.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
 
-</head>
-<body>
-	<!-- These semantic tags were added to help you get started but you are very welcome to delete any of them and do your own thing -->
-	<header><div class="header-whole">
-		<div>
-			<img class="header-logo" id="logo-right" src="images/cinemagiclogo.svg"/>
+	</head>
+	<body>
+		<!-- These semantic tags were added to help you get started but you are very welcome to delete any of them and do your own thing -->
+		<header><div class="header-whole">
+			<div>
+				<img class="header-logo" id="logo-right" src="images/cinemagiclogo.svg"/>
+			</div>
+			<div class="main-nav">
+				<ul class="main-nav-menu">
+					<li><a href="index.html">NOW PLAYING</a></li> 
+					<li><a href="menu.html">MENU</a></li>
+					<li><a href="cinema.html">Visiting THE CINEMA</a></li>
+					<li><a href="contact.html">CONTACT</a></li> 
+				</ul> 
+			</div>
+
+			<div class="spinner-master2">
+				<input type="checkbox" id="spinner-form2" />
+				<label for="spinner-form2" class="spinner-spin2">
+					<div class="spinner2 diagonal part-1"></div>
+					<div class="spinner2 horizontal"></div>
+					<div class="spinner2 diagonal part-2"></div>
+				</label>
+			</div>
 		</div>
-		<div class="main-nav">
-			<ul class="main-nav-menu">
-				<li><a href="index.html">NOW PLAYING</a></li> 
-				<li><a href="menu.html">MENU</a></li>
-				<li><a href="cinema.html">THE CINEMA</a></li>
-				<li><a href="contact.html">CONTACT</a></li> 
-			</ul> 
+
+		<div><img src="images/cinemagicbanner-05.png"></div>
+
+	</header>
+
+	<main>
+
+		<div class="portland">
+			<img class="star" src="images/star.svg" width="75">
+			<h1>Visiting The Cinema</h1>	
+			<img class="star" src="images/star.svg" width="75">
 		</div>
 
-		<div class="spinner-master2">
-			<input type="checkbox" id="spinner-form2" />
-			<label for="spinner-form2" class="spinner-spin2">
-				<div class="spinner2 diagonal part-1"></div>
-				<div class="spinner2 horizontal"></div>
-				<div class="spinner2 diagonal part-2"></div>
-			</label>
+
+
+		<!-- FAQ -->
+		<div class="parent-container">
+			<div class="faqs">
+				<ul class="faq">
+					<li>
+						<h4 class="question">Who’s eligible for student tickets?
+							<div class="plus-minus-toggle collapsed"></div>
+						</h4>
+						<div class="answer">Pretty much anyone with a valid student ID from a learning institution, including colleges and trade schools. Students too young to have ID qualify for the child price, so they’re covered either way.</div></li>
+						<li>
+							<h4 class="question">What’s your Senior age?
+								<div class="plus-minus-toggle collapsed"></div>
+							</h4>
+							<div class="answer">60</div></li>
+							<li>
+								<h4 class="question">Are minors allowed?
+									<div class="plus-minus-toggle collapsed"></div>
+								</h4>
+								<div class="answer">Minors are welcome for all shows, but the MPAA rating system still applies (see next question for details). For late shows (after 8pm or so) the atmosphere is a little more mature. All ages are still welcome, as long as they can act like grown ups for a couple hours.</div></li>
+								<li>
+									<h4 class="question">What are your policies for MPAA ratings?
+										<div class="plus-minus-toggle collapsed"></div>
+									</h4>
+									<div class="answer"><ol><li>Rated R – We won’t sell tickets directly to anyone under 17. A parent or other responsible adult can purchase tickets for people under 17, but only if they accompany the younger person(s) into the film. If you buy tickets online, we’ll verify age when you check in.</li> <li>PG13 – Basically the same as R, but with 13 years of age as the cut off. There’s a little grey area here, because most 13-year-olds don’t carry ID. That said, we know what an eight-year-old looks like, so common sense is the guide here.</li> <li>G and PG – All ages welcome.</li></ol></div>
+								</li>
+									<li>
+									<h4 class="question">Do you serve beer and cider?
+										<div class="plus-minus-toggle collapsed"></div>
+									</h4>
+									<div class="answer">Yes! We take pride in having the best tap list you’ll find in a Portland theater.</div>
+								</li>
+									<li>
+									<h4 class="question">What kind of food do you have?
+										<div class="plus-minus-toggle collapsed"></div>
+									</h4>
+									<div class="answer">Popcorn and candy, mostly.</div>
+								</li>
+									<li>
+									<h4 class="question">What’s on your popcorn? Is is vegan?
+										<div class="plus-minus-toggle collapsed"></div>
+									</h4>
+									<div class="answer">Our popcorn is popped in coconut oil with light seasoning. If left un-buttered, it’s vegan. We have salt, nutritional yeast, and a couple different hot sauces available.</div>
+								</li>
+									<li>
+									<h4 class="question">Do you have assistive listening, visual narrative, or closed captioning devices?
+										<div class="plus-minus-toggle collapsed"></div>
+									</h4>
+									<div class="answer">At present, we have assistive listening headphones. We have parts on order for visual narrative and closed captioning, and we’ll update this as soon as they’re installed. These devices are available to anyone, though we do ask that you leave a Drivers License (or something to that effect) at the counter until you return them after the movie.</div>
+								</li>
+
+							</div>
+							<div class="faqs">
+								<ul class="faq">
+									<li>
+										<h4 class="question">Who’s eligible for student tickets?
+											<div class="plus-minus-toggle collapsed"></div>
+										</h4>
+										<div class="answer">Pretty much anyone with a valid student ID from a learning institution, including colleges and trade schools. Students too young to have ID qualify for the child price, so they’re covered either way.</div></li>
+										<li>
+											<h4 class="question">What’s your Senior age?
+												<div class="plus-minus-toggle collapsed"></div>
+											</h4>
+											<div class="answer">60</div></li>
+											<li>
+												<h4 class="question">Are minors allowed?
+													<div class="plus-minus-toggle collapsed"></div>
+												</h4>
+												<div class="answer">Minors are welcome for all shows, but the MPAA rating system still applies (see next question for details). For late shows (after 8pm or so) the atmosphere is a little more mature. All ages are still welcome, as long as they can act like grown ups for a couple hours.</div></li>
+												<li>
+													<h4 class="question">What are your policies for MPAA ratings?
+														<div class="plus-minus-toggle collapsed"></div>
+													</h4>
+													<div class="answer"><ol><li>Rated R – We won’t sell tickets directly to anyone under 17. A parent or other responsible adult can purchase tickets for people under 17, but only if they accompany the younger person(s) into the film. If you buy tickets online, we’ll verify age when you check in.</li> <li>PG13 – Basically the same as R, but with 13 years of age as the cut off. There’s a little grey area here, because most 13-year-olds don’t carry ID. That said, we know what an eight-year-old looks like, so common sense is the guide here.</li> <li>G and PG – All ages welcome.</li></ol>
+													</div>
+												</li>
+														<li>
+													<h4 class="question">Do you have air conditioning?
+														<div class="plus-minus-toggle collapsed"></div>
+													</h4>
+													<div class="answer">Yes!
+													</div>
+												</li>
+														<li>
+													<h4 class="question">Do you accept credit cards?
+														<div class="plus-minus-toggle collapsed"></div>
+													</h4>
+													<div class="answer">Yes! We accept all major cards for both tickets and concessions.
+													</div>
+												</li>
+														<li>
+													<h4 class="question">Is the show I want to see is sold out?
+														<div class="plus-minus-toggle collapsed"></div>
+													</h4>
+													<div class="answer"><ol><li>Unfortunately, the nights when you would want to ask are the same nights we’re too busy to keep a close eye on the phone, so calling/messaging the theater probably won’t help. That said, here’s a few pointers that could answer your question.
+													</li> <li>Our online ticketing system is active until 10 minutes before showtime. If it’s earlier than that and you can buy tickets online, there are definitely seats available.</li> <li>We’ve never sold out a show on a Monday, Wednesday or Thursday. We’ve also never sold out the first show of the day on a Saturday or Sunday. If you’re looking for a quieter show, these are your best bet.</li><li>Most of our business comes from locals and foot traffic. We don’t do a lot of advance ticket sales. So far, we’ve never sold out more than 10 minutes before a movies start time. If you swing by the theater 20 minutes before your movie starts, we’ll have seats left.</li></ol>
+													</div>
+												</li>
+														<li>
+													<h4 class="question">Is there parking on site?
+														<div class="plus-minus-toggle collapsed"></div>
+													</h4>
+													<div class="answer">We don’t have a parking lot, but there’s usually plenty of street parking close by.
+
+
+													</div>
+												</li>
+
+									</ul>
+								</div>
+
+
 		</div>
-	</div>
-
-	<div><img src="images/cinemagicbanner-05.png"></div>
-
-</header>
-
-<main>
-
-	<div class="portland">
-		<img class="star" src="images/star.svg" width="75">
-		<h1>The Cinema</h1>	
-		<img class="star" src="images/star.svg" width="75">
-	</div>
-
-
-	
-<!-- FAQ -->
-<div class="parent-container">
-  <ul class="faq">
-    <li>
-      <h3 class="question">Frequently Asked Question?
-        <div class="plus-minus-toggle collapsed"></div>
-      </h3>
-      <div class="answer">Answer. Donec vitae tellus risus. Aenean sed fermentum risus. Phasellus venenatis 
-        ultricies dignissim. Nunc ante lectus, accumsan non porta at. Donec vitae tellus risus. Aenean sed 
-        fermentum risus. Phasellus venenatis ultricies dignissim.</div>
-    </li>
-    <li>
-      <h3 class="question">Frequently Asked Question?
-        <div class="plus-minus-toggle collapsed"></div>
-      </h3>
-      <div class="answer">Answer. Donec vitae tellus risus. Aenean sed fermentum risus. Phasellus venenatis 
-        ultricies dignissim. Nunc ante lectus, accumsan non porta at. Donec vitae tellus risus. Aenean sed 
-        fermentum risus. Phasellus venenatis ultricies dignissim.</div>
-    </li>
-  </ul>
-</div>
 
 
 
-	
-</main>
 
-<footer>
-	
-<div class="footercontainer">
-  <div class="column1">
-  <h5>ADDRESS</h5> <p>2021 SE Hawethorne Blvd
-Portland, OR 97214</p>
-  </div> 
-  
-  <div class="column1">
-    <h5>BOX OFFICE OPENS20 MINUTES BEFORE 1st SHOWTIME</h5>
-  </div>
-  
-  <div class="column1">
-  	<h5>TICKET PRICES</h5>
-<p>General Admission - $8
-Matinee (before 5:45pm) - $6
-Children - $6
-Seniors (60+) - $6
-Student (With ID) - $6
-Military (With ID) - $6
-$5 ALL DAY TUESDAY</p>
-  </div>
-</div>
+								</main>
 
-	
-</footer>
+								<footer>
+
+									<div class="footercontainer">
+										<div class="column1">
+											<h5>ADDRESS</h5> <p>2021 SE Hawethorne Blvd
+											Portland, OR 97214</p>
+										</div> 
+
+										<div class="column1">
+											<h5>BOX OFFICE OPENS20 MINUTES BEFORE 1st SHOWTIME</h5>
+										</div>
+
+										<div class="column1">
+											<h5>TICKET PRICES</h5>
+											<p>General Admission - $8
+												Matinee (before 5:45pm) - $6
+												Children - $6
+												Seniors (60+) - $6
+												Student (With ID) - $6
+												Military (With ID) - $6
+											$5 ALL DAY TUESDAY</p>
+										</div>
+									</div>
 
 
-<!-- link for jquery -->
-<script
-src="https://code.jquery.com/jquery-3.4.1.min.js"
-integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-crossorigin="anonymous"></script>
-<!-- link for your script file -->
-<script src="scripts/script.js"></script>
-</body>
-</html>
+								</footer>
+
+
+								<!-- link for jquery -->
+								<script
+								src="https://code.jquery.com/jquery-3.4.1.min.js"
+								integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+								crossorigin="anonymous"></script>
+								<!-- link for your script file -->
+								<script src="scripts/script.js"></script>
+							</body>
+							</html>
