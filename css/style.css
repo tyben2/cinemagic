@@ -549,6 +549,114 @@ textarea:focus {
 	grid-template-columns: 1fr 1fr; 
 }
 
+section { margin: 0 auto; max-width: 900px; box-sizing: border-box; }
+
+.fhwslider {
+  width: 100%;
+  margin-bottom: 20px;
+    margin-top: 20px;
+
+  position: relative;
+  overflow: hidden;
+  background: black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: stretch;
+  box-sizing: border-box;
+  
+  
+}
+
+.fhwslider div {  
+  min-width:100%;
+  position: relative;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background: none;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  transform: translateX(-100%);
+  animation: fhwsliderani 24s ease-in-out 0s infinite;
+  
+}
+
+
+
+	.fhwslider div .jokerslider { background-image: url("../images/jokerimg.jpg");}
+
+
+.fhwslider > div:nth-child(1) {
+  position: relative;
+  animation-delay: -4s;
+ 
+}
+
+.fhwslider > div:nth-child(2) {
+  animation-delay: 4s;
+  margin-left:-100%;
+}
+
+.fhwslider > div:nth-child(3) {
+  animation-delay: 12s;
+  margin-left:-100%;
+ 
+}
+
+.fhwslider div p {
+  padding: 20px;
+  text-align: center;
+  color: white;
+  width: 90%;
+
+}
+
+.fhwslider div p:last-child {
+  margin-top: 1.5em;
+  padding: .25em 1em;
+  text-align: center;
+  border: 1px solid #666;
+  border-radius: .5em;
+  width: auto;
+}
+
+.fhwslider > div p:last-child:hover {
+  border: 1px solid #888;
+  cursor: pointer;
+}
+
+.fhwslider > div h1 {
+  transform: scale(0.9, 1);
+  transform-origin: 0% 0%;
+  letter-spacing: .05em;
+  color: white;
+}
+
+@keyframes fhwsliderani {
+  0% {}
+
+  8.33333% {
+    transform: translateX(0);
+  }
+
+  33.3333337% {
+    transform: translateX(0);
+  }
+
+  41.6666667% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+}
 
 
 @media screen and ("max-width:767px") {
