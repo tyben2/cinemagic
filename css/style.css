@@ -521,6 +521,36 @@ textarea:focus {
 	padding: 13px;
 	transition: color 0.5s ease;
 }
+
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.group:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.pointer {
+	cursor: pointer;
+}
+.wrapper {
+	position: relative;
+	margin: 0 auto;
+}
+.pad {
+	padding: 1em;
+}
+
+.two-col{
+	display: grid;
+	grid-template-columns: 1fr 1fr; 
+}
+
+
+
 @media screen and ("max-width:767px") {
 	.faq .question {
 		font-size: 18px;
