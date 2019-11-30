@@ -221,21 +221,47 @@ img { width: 100%; }
 	width: 50%;
 }
 
-button {
-	padding: 9px 25px;
-	background-color: rgba(166,73,107,1);
-	border: none;
-	border-radius: 50px;
-	cursor: pointer;
-	transition: all 0.3s ease 0s;
-
-
+.button {
+	 display: inline-block;
+	 padding: 0.75rem .75rem;
+	 border-radius: 10rem;
+	 color: #fff;
+	 text-align: center;
+	 transition: all 0.3s;
+	 position: relative;
+	 overflow: hidden;
+	 z-index: 1;
 }
-
-button:hover{
-	background-color: rgba(166,73,107,.8);
-
+ .button:after {
+	 content: '';
+	 position: absolute;
+	 bottom: 0;
+	 left: 0;
+	 width: 100%;
+	 height: 100%;
+	 background-color: rgb(166,73,107);
+	 border-radius: 10rem;
+	 z-index: -2;
 }
+ .button:before {
+	 content: '';
+	 position: absolute;
+	 bottom: 0;
+	 left: 0;
+	 width: 0%;
+	 height: 100%;
+	 background-color: rgb(125,55,80);
+	 transition: all 0.3s;
+	 border-radius: 10rem;
+	 z-index: -1;
+}
+ .button:hover {
+	 color: rgb(242,208,145);
+}
+ .button:hover:before {
+	 width: 100%;
+}
+ 
 
 
 
@@ -320,6 +346,31 @@ button:hover{
 .star {
 	background: rgb(166,73,107);
 }
+
+.star {
+	transition: 0.70s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.star:hover {
+  transition: 0.70s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+} 
+
 
 footer {
 	background-color: rgba(166,73,107,1);
